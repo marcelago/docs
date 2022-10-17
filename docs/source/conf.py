@@ -3,8 +3,7 @@
 # -- Project information
 
 project = 'Azubi Wiki für Alle'
-copyright = '2021, Graziella'
-author = 'Graziella'
+
 
 release = '0.1'
 version = '0.1.0'
