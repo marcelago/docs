@@ -1,6 +1,6 @@
 # Netzwerke
 
-## Nromung und Modelle
+## Normung und Modelle
 
 ### Gremien
 
@@ -29,17 +29,17 @@ Die IEEE ist zuständig für Standardisierung im raum Elektrotechnik. Dies beinh
 
 ISO ist eine Dachorganisation von 163 nationalen Normungsausschüssen, darunter die ANSI (American National Standards Institute) und DIN (Deutsches Institut für Normung). Die ISO ist selber aber auch teile der ITU-T.
 
-Die Aufgaben der ISO ist Nationale Standards zu globalisieren und mit andern zu vereinen. Zum Beispiel ASCII (American Standard Code for Information Interchange) welche von der ANSI entwickelt und der ISO unterm Namen ISO-9000 Globalisierte wurde.
+Die Aufgaben der ISO ist, nationale Standards zu globalisieren und mit andern zu vereinen. Zum Beispiel ASCII (American Standard Code for Information Interchange) welche von der ANSI entwickelt und der ISO unter dem Namen ISO-9000 globalisierte wurde.
 
 #### Internet Corporation for Assigned Names and Numbers (ICANN)
 
-Sie ist primär zuständig für die vergabe von Top-Level Domains wie z.B. de, com, org und IP-Adressen im Internet. Sie deferieren auch die Strukturen für dienst DNS. Die aufgaben von Verteilung von IP-Adressen haben einer Unterorganisierung weiter gegeben Namens IANA.
+Sie ist primär zuständig für die Vergabe von Top-Level Domains wie z.B. de, com, org und IP-Adressen im Internet. Sie deferieren auch die Strukturen für dienst DNS. Die aufgaben von Verteilung von IP-Adressen haben einer Unterorganisierung weiter gegeben Namens IANA.
 
 ### OSI-Modell
 
 #### Wichtige theoretische Grundlage
 
-Das Open-System-Interconnection-Modell, ermöglicht den komplexen Ablauf bei der Übermittlung von Daten zwischen zwei Systemen logisch aufzuteilen. Der Blick auf das Netzwerk wird vereinfacht. Zudem bezieht sich jede Definition eines Netzwerkdienstes auf das OSI-Schichten-Modell bzw. auf das TCP/IP-Referenzmodell, welches ein noch weiter vereinfachtes Modell darstellt.
+Das Open-System-Interconnection-Modell ermöglicht, den komplexen Ablauf bei der Übermittlung von Daten zwischen zwei Systemen logisch aufzuteilen. Der Blick auf das Netzwerk wird vereinfacht. Zudem bezieht sich jede Definition eines Netzwerkdienstes auf das OSI-Schichten-Modell bzw. auf das TCP/IP-Referenzmodell, welches ein noch weiter vereinfachtes Modell darstellt.
 
 #### Herleitung und Übersicht
 
@@ -51,7 +51,7 @@ Die gesamte Netzwerkkomunikation wird in ein Modell aus sieben Schichten eingete
 
 **Image Space**
 
-Wie funktioniert das OSI-Modell? à Wenn man beispielsweise eine E-Mail versendet, durchläuft diese alle sieben OSI-Schichten, bis zum Empfänger.
+Wie funktioniert das OSI-Modell? Wenn man beispielsweise eine E-Mail versendet, durchläuft diese alle sieben OSI-Schichten, bis zum Empfänger.
 
 ****
 
