@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Azubi Wiki für Alle'
 copyright = '2021, Graziella'
 author = 'Graziella'
 
