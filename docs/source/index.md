@@ -307,14 +307,20 @@ Bei Netzen in Stern-Topologie sind an einen zentralen Teilnehmer alle anderen 
  **Vorteile**
 
 - Der Ausfall eines Endgerätes hat keine Auswirkung auf den Rest des Netzes.
-- Hohe und verschiedene Übertragungsraten möglich
-- Leicht erweiterbar
-- Leicht verständlich
-- Leichte Fehlersuche
-- Sehr gute Eignung für Multicast-/Broadcastanwendungen
-- Einfaches Routing im Sternverteiler
 
- **Nachteile**
+- Hohe und verschiedene Übertragungsraten möglich
+
+- Leicht erweiterbar
+
+- Leicht verständlich
+
+- Leichte Fehlersuche
+
+- Sehr gute Eignung für Multicast-/Broadcastanwendungen
+
+- Einfaches Routing im Sternverteiler
+  
+  **Nachteile**
 
 - Durch Ausfall des Verteilers wird Netzverkehr unmöglich
 
@@ -393,3 +399,67 @@ Bei der Vernetzung in Ring-Topologie werden jeweils zwei Teilnehmer über Zwei
 
 - Cloud = bestimmten Vernetzungen, wie Asynchronous Transfer Mode (ATM)
 - von außen nicht zu erkennen, welches Gerät in einem Netzwerk die Daten transportiert oder wo diese gespeichert sind
+
+## Erweiterung eines Netzwerkes
+
+### Allgemein
+
+Eine Erweiterung von Netzen ist erforderlich, wenn die Anzahl der Nutzer oder die Anforderung an das Netz (z.B. Datenmenge) steigt.
+
+
+
+Bei einer Erweiterung stellen sich auch fragen bezüglich neuen Aspekten:
+
+- Soll das Netz in mehrere Einzelsegmente unterteilt werden
+
+- Welche Komponenten werden benötigt um eine Erweiterung physikalisch zu realisieren
+
+- Planung der Topologien un den Netzwerkverkehr effizienter zu gestalten
+
+- Maßnahmen um gesteigerten Sicherheitsanfordungen gerecht zu werden
+
+### Verkabelung
+
+Grundsätzlich bei einer neuen Verkabelung gilt es die Zukunfssicherheit mit einzuplanen, da die Kosten für eine regelmäßigen Verkabelungen zu hoch wären
+
+<u>Strukturierte Verkabelung</u>:
+
+Zu verkabelung von Gebäuden hat sich in Europa die Norm EN 50173 etabliert, sie sieht eine Dreiteilung der Gebäudeverkabelung in den primären, sekundären und tertiären Bereich vor.
+
+Die <u>primäre Verkabelung</u> verbindet einzelene Gebäude, meist über Lichtwellenleiter miteinander, sie soll hohe Datenraten über größer Entfernung realisieren.
+
+Bei der <u>sekundären Verkabelung</u> handelt es sich um die Verkabelung zwischen den Etagen in einem Gebäude, welche auch vorrangig durch LWL realisiert werden sollte.
+
+Mit dem <u>Tertiären Bereich</u> ist das Netzwerk in einer Etage gemeint, welches hauptsächlich Twisted-Pair Kabel nutzt.
+
+
+
+Vorteil:
+
+-  Die Verkabelung ist anwendungsneutral, d.h. es können alle Informationen über das gleiche Medium übertragen werden
+
+- Ist aufgrunde Struktur flexibel erweiterbar und ausfallsicher
+
+<u>Collapsed Backbone</u>
+
+Bei dieser Art der Verkabelung werden alle Netzsegmente an einem einzigen Gerät angeschlossen, was nicht der Norm EN 50173 entspircht.
+
+Der größte Vorteil liegt im einfachen Netz-Management, da man die Verwaltung nun zentral an einem Gerät dürchführen kann.
+
+Allerdings kann es bei einem Ausfall dieses zentrale gerät zu einem kompletten Ausfal des Netverkehrs in einem Gebäude kommen.
+
+### VLAN (Virtual Local Network)
+
+Ein VLAN ist eine geschlossen logische Gruppe innerhalb eines physikalischen Netzwerkes,
+
+so kann man z.B. Gruppe trennen, die eigentlich an einem Switch angeschlossen sind und damit physikalisch verbunden sind. Das funktuniert auch dann, wenn zwischen den zugehörigen Geräten mehrere Switches liegen, damit kann man einen Arbeitsplatz verlegen und trotzdem im gleichen VLAN verbunden sein.
+
+
+
+Bei einem portbasierten VLAN, werden einem Switch zugewiesen, d.h. die Geräte einer Gruppe müssen an diesen Ports angeschlossen sein.
+
+
+
+MAC-Adressenbasite VLANs arbeiten mit dem physischen Adressen der Geräe um sie dem Netzwerk zuzuweisen, was einen einfachen Umzug der Geräte innerhalb eines Gerbäudes ermöglichen, da man hierbei nicht den Port beibehalten oder einen neuen hinzufügen muss. 
+
+Allerdings ist diese Zuordnung unsicher und somit nicht für sicherheitsrelevante Aufgabe zu gebrauchen. 
