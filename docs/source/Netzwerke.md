@@ -55,8 +55,7 @@ Wie funktioniert das OSI-Modell? Wenn man beispielsweise eine E-Mail versendet, 
 
 ****
 
-**Eine gute Erklärung des OSI-Modells findet ihr unter folgendem Link:** 
-https://www.youtube.com/watch?v=_kDogzR0-4Q
+**Eine gute Erklärung des OSI-Modells findet ihr unter [folgendem Link](https://www.youtube.com/watch?v=_kDogzR0-4Q)**
 
 ****
 
